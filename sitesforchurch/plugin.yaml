@@ -1,0 +1,123 @@
+plugin:
+    name: 'sitesforchurch.sitesforchurch::lang.plugin.name'
+    description: 'sitesforchurch.sitesforchurch::lang.plugin.description'
+    author: sitesforchurch
+    icon: oc-icon-institution
+    homepage: 'http://sitesfor.church'
+permissions:
+    everything:
+        tab: everything
+        label: everything
+navigation:
+    sermons:
+        label: Sermons
+        url: sitesforchurch/sitesforchurch/serrmons
+        icon: icon-microphone
+        permissions:
+            - everything
+        sideMenu:
+            sermons:
+                label: Sermons
+                url: sitesforchurch/sitesforchurch/serrmons
+                icon: icon-list
+                permissions:
+                    - everything
+            series:
+                label: Series
+                url: sitesforchurch/sitesforchurch/series
+                icon: icon-sitemap
+                permissions:
+                    - everything
+            speakers:
+                label: Speakers
+                url: sitesforchurch/sitesforchurch/speakers
+                icon: icon-users
+                permissions:
+                    - everything
+    events:
+        label: Events
+        url: sitesforchurch/sitesforchurch/events
+        icon: icon-calendar
+        permissions:
+            - everything
+        sideMenu:
+            events:
+                label: Events
+                url: sitesforchurch/sitesforchurch/events
+                icon: icon-list
+                permissions:
+                    - everything
+    ministries:
+        label: Ministries
+        url: sitesforchurch/sitesforchurch/ministries
+        icon: icon-users
+        permissions:
+            - everything
+        sideMenu:
+            ministries:
+                label: Ministries
+                url: sitesforchurch/sitesforchurch/ministries
+                icon: icon-list
+                permissions:
+                    - everything
+            ministryleaders:
+                label: 'Ministry Leaders'
+                url: sitesforchurch/sitesforchurch/ministryleader
+                icon: icon-user
+                permissions:
+                    - everything
+    galleries:
+        label: Galleries
+        url: sitesforchurch/sitesforchurch/galleries
+        icon: icon-photo
+        permissions:
+            - everything
+        sideMenu:
+            galleries:
+                label: Galleries
+                url: sitesforchurch/sitesforchurch/galleries
+                icon: icon-th-list
+    aboutus:
+        label: 'About Us'
+        url: sitesforchurch/sitesforchurch/beliefs
+        icon: icon-copy
+        permissions:
+            - everything
+        sideMenu:
+            beliefs:
+                label: Beliefs
+                url: sitesforchurch/sitesforchurch/beliefs
+                icon: icon-book
+                permissions:
+                    - everything
+            leadership:
+                label: Leadership
+                url: sitesforchurch/sitesforchurch/leadership
+                icon: icon-users
+                permissions:
+                    - everything
+            other-pages:
+                label: 'Other Pages'
+                url: sitesforchurch/sitesforchurch/otherpage
+                icon: icon-list
+                permissions:
+                    - everything
+    missions:
+        label: Missions
+        url: sitesforchurch/sitesforchurch/missionaries
+        icon: icon-globe
+        permissions:
+            - everything
+        sideMenu:
+            missionaries:
+                label: Missionaries
+                url: sitesforchurch/sitesforchurch/missionaries
+                icon: icon-list
+                permissions:
+                    - everything
+            letters:
+                label: Letters
+                url: sitesforchurch/sitesforchurch/letters
+                icon: icon-file-pdf-o
+                permissions:
+                    - everything

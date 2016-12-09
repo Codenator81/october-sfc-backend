@@ -1,0 +1,4 @@
+title: Galleries
+modelClass: Sitesforchurch\Sitesforchurch\Models\Gallery
+toolbar:
+    buttons: reorder_toolbar

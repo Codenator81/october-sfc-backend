@@ -1,0 +1,10 @@
+name: Speakers
+form: $/sitesforchurch/sitesforchurch/models/speaker/fields.yaml
+modelClass: Sitesforchurch\Sitesforchurch\Models\Speaker
+defaultRedirect: sitesforchurch/sitesforchurch/speakers
+create:
+    redirect: 'sitesforchurch/sitesforchurch/speakers/update/:id'
+    redirectClose: sitesforchurch/sitesforchurch/speakers
+update:
+    redirect: sitesforchurch/sitesforchurch/speakers
+    redirectClose: sitesforchurch/sitesforchurch/speakers

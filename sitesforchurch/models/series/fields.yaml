@@ -1,0 +1,40 @@
+fields:
+    title:
+        label: Title
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    slug:
+        label: Slug
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        preset:
+            field: title
+            type: slug
+        type: text
+    published:
+        label: Published
+        span: full
+        type: checkbox
+    featured_image:
+        label: 'Featured Image'
+        oc.commentPosition: ''
+        mode: image
+        imageWidth: '512'
+        imageHeight: '288'
+        useCaption: 0
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        required: 1
+        type: fileupload
+    description:
+        label: Description
+        size: large
+        oc.commentPosition: ''
+        span: full
+        required: 1
+        type: textarea

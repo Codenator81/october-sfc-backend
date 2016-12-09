@@ -1,0 +1,11 @@
+list: $/sitesforchurch/sitesforchurch/models/ministryleader/columns.yaml
+modelClass: Sitesforchurch\Sitesforchurch\Models\MinistryLeader
+title: Ministryleader
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'sitesforchurch/sitesforchurch/ministryleader/update/:id'

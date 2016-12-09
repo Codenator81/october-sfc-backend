@@ -1,0 +1,4 @@
+title: Ministryleader
+modelClass: Sitesforchurch\Sitesforchurch\Models\MinistryLeader
+toolbar:
+    buttons: reorder_toolbar

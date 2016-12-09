@@ -1,0 +1,10 @@
+name: Series
+form: $/sitesforchurch/sitesforchurch/models/series/fields.yaml
+modelClass: Sitesforchurch\Sitesforchurch\Models\Series
+defaultRedirect: sitesforchurch/sitesforchurch/series
+create:
+    redirect: 'sitesforchurch/sitesforchurch/series/update/:id'
+    redirectClose: sitesforchurch/sitesforchurch/series
+update:
+    redirect: sitesforchurch/sitesforchurch/series
+    redirectClose: sitesforchurch/sitesforchurch/series

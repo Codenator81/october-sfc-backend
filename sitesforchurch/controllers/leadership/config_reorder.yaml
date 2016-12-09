@@ -1,0 +1,4 @@
+title: Leadership
+modelClass: Sitesforchurch\Sitesforchurch\Models\Leader
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Letters
+form: $/sitesforchurch/sitesforchurch/models/missionsletter/fields.yaml
+modelClass: Sitesforchurch\Sitesforchurch\Models\Missionsletter
+defaultRedirect: sitesforchurch/sitesforchurch/letters
+create:
+    redirect: 'sitesforchurch/sitesforchurch/letters/update/:id'
+    redirectClose: sitesforchurch/sitesforchurch/letters
+update:
+    redirect: sitesforchurch/sitesforchurch/letters
+    redirectClose: sitesforchurch/sitesforchurch/letters

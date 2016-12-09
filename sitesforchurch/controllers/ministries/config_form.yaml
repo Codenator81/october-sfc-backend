@@ -1,0 +1,10 @@
+name: Ministries
+form: $/sitesforchurch/sitesforchurch/models/ministry/fields.yaml
+modelClass: Sitesforchurch\Sitesforchurch\Models\Ministry
+defaultRedirect: sitesforchurch/sitesforchurch/ministries
+create:
+    redirect: 'sitesforchurch/sitesforchurch/ministries/update/:id'
+    redirectClose: sitesforchurch/sitesforchurch/ministries
+update:
+    redirect: sitesforchurch/sitesforchurch/ministries
+    redirectClose: sitesforchurch/sitesforchurch/ministries

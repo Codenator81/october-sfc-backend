@@ -1,0 +1,4 @@
+title: Missionaries
+modelClass: Sitesforchurch\Sitesforchurch\Models\Missionary
+toolbar:
+    buttons: reorder_toolbar

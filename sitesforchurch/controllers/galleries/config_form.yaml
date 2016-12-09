@@ -1,0 +1,10 @@
+name: Galleries
+form: $/sitesforchurch/sitesforchurch/models/gallery/fields.yaml
+modelClass: Sitesforchurch\Sitesforchurch\Models\Gallery
+defaultRedirect: sitesforchurch/sitesforchurch/galleries
+create:
+    redirect: 'sitesforchurch/sitesforchurch/galleries/update/:id'
+    redirectClose: sitesforchurch/sitesforchurch/galleries
+update:
+    redirect: sitesforchurch/sitesforchurch/galleries
+    redirectClose: sitesforchurch/sitesforchurch/galleries

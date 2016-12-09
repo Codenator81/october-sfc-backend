@@ -1,0 +1,10 @@
+name: Missionaries
+form: $/sitesforchurch/sitesforchurch/models/missionary/fields.yaml
+modelClass: Sitesforchurch\Sitesforchurch\Models\Missionary
+defaultRedirect: sitesforchurch/sitesforchurch/missionaries
+create:
+    redirect: 'sitesforchurch/sitesforchurch/missionaries/update/:id'
+    redirectClose: sitesforchurch/sitesforchurch/missionaries
+update:
+    redirect: sitesforchurch/sitesforchurch/missionaries
+    redirectClose: sitesforchurch/sitesforchurch/missionaries

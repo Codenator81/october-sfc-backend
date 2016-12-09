@@ -1,0 +1,11 @@
+list: $/sitesforchurch/sitesforchurch/models/gallery/columns.yaml
+modelClass: Sitesforchurch\Sitesforchurch\Models\Gallery
+title: Galleries
+noRecordsMessage: 'backend::lang.list.no_records'
+showSetup: true
+showCheckboxes: true
+toolbar:
+    buttons: list_toolbar
+    search:
+        prompt: 'backend::lang.list.search_prompt'
+recordUrl: 'sitesforchurch/sitesforchurch/galleries/update/:id'

@@ -1,0 +1,10 @@
+name: Contactpages
+form: $/sitesforchurch/sitesforchurch/models/contactpage/fields.yaml
+modelClass: Sitesforchurch\Sitesforchurch\Models\Contactpage
+defaultRedirect: sitesforchurch/sitesforchurch/contactpages
+create:
+    redirect: 'sitesforchurch/sitesforchurch/contactpages/update/:id'
+    redirectClose: sitesforchurch/sitesforchurch/contactpages
+update:
+    redirect: sitesforchurch/sitesforchurch/contactpages
+    redirectClose: sitesforchurch/sitesforchurch/contactpages

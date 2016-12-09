@@ -1,0 +1,30 @@
+fields:
+    name:
+        label: 'Speaker Name'
+        oc.commentPosition: ''
+        span: auto
+        required: 1
+        type: text
+    bio:
+        label: 'Text area'
+        size: large
+        oc.commentPosition: ''
+        span: full
+        type: textarea
+    thumbnail:
+        label: Thumbnail
+        oc.commentPosition: ''
+        mode: image
+        imageWidth: '300'
+        imageHeight: '300'
+        useCaption: 0
+        thumbOptions:
+            mode: crop
+            extension: auto
+        span: full
+        type: fileupload
+    email:
+        label: 'Email Address'
+        oc.commentPosition: ''
+        span: auto
+        type: text

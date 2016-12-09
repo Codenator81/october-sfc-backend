@@ -1,0 +1,4 @@
+title: Otherpage
+modelClass: Sitesforchurch\Sitesforchurch\Models\AboutPage
+toolbar:
+    buttons: reorder_toolbar

@@ -1,0 +1,10 @@
+name: Otherpage
+form: $/sitesforchurch/sitesforchurch/models/aboutpage/fields.yaml
+modelClass: Sitesforchurch\Sitesforchurch\Models\AboutPage
+defaultRedirect: sitesforchurch/sitesforchurch/otherpage
+create:
+    redirect: 'sitesforchurch/sitesforchurch/otherpage/update/:id'
+    redirectClose: sitesforchurch/sitesforchurch/otherpage
+update:
+    redirect: sitesforchurch/sitesforchurch/otherpage
+    redirectClose: sitesforchurch/sitesforchurch/otherpage

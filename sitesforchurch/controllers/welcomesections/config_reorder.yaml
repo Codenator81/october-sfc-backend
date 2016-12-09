@@ -1,0 +1,4 @@
+title: Welcomesections
+modelClass: Sitesforchurch\Sitesforchurch\Models\Welcomesection
+toolbar:
+    buttons: reorder_toolbar

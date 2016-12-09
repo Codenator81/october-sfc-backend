@@ -1,0 +1,10 @@
+name: Events
+form: $/sitesforchurch/sitesforchurch/models/event/fields.yaml
+modelClass: Sitesforchurch\Sitesforchurch\Models\Event
+defaultRedirect: sitesforchurch/sitesforchurch/events
+create:
+    redirect: 'sitesforchurch/sitesforchurch/events/update/:id'
+    redirectClose: sitesforchurch/sitesforchurch/events
+update:
+    redirect: sitesforchurch/sitesforchurch/events
+    redirectClose: sitesforchurch/sitesforchurch/events
